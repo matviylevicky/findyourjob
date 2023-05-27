@@ -1,3 +1,55 @@
 body {
     font-family: 'Fira Sans', sans-serif;
+} 
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+/* стилі footer */
+.footer {
+    display: flex;
+    width: 810px;
+    height: 177px;
+}
+.footer-logo-text {
+    width: 166px;
+    height: 34px;
+    font-size: 12px;
+    color: Grey;
+}
+.footer-logo-a {
+    text-decoration: none;
+    color: black;
+}
+.footer-logo {
+    padding-left: 147px;
+    padding-right: 88px;
+}
+.Contact-us {
+    font-weight: 700;
+}
+.footer-item-1 {
+    padding-right:137px ;   
+}
+.information {
+    font-weight: 700;
+}
+.footer-item-2 {
+    padding-right: 160px;
+}
+.footer-nav {
+    font-weight: 700;
+}
+.footer-item-3 {
+    padding-right: 229px;
+}
+.footer-nav-link {
+    text-decoration: none;
+    color: black;
 }
