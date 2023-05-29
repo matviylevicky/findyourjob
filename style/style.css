@@ -112,7 +112,40 @@ body {
     height: 557.49px;
     padding-left: 127px;
 }
-
+/* стилі для категорій */
+.categories {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .categories_items {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+  }
+  .categories_item {
+    display: flex;
+    margin-right: 30px;
+    padding: 35px 55px;
+    background: #f2f3f6;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .categories_iteme_img {
+    width: 26px;
+    height: 24px;
+  }
+  .categories_item:hover {
+    background: #1a75e8;
+  }
+  .categories_item:hover img {
+    filter: brightness(0) invert(1);
+  }
+  .categories_item:hover p {
+    color: white;
+  }
 
 
 
